@@ -21,6 +21,8 @@ function FindStudent() {
                 <input type="text" value={input} onChange={handleChange}>
                 <input type="submit" value="Submit" onSubmit= {handleSubmit} />
             </form>
+            Student name: {input}
+            Student index: {output}
         </div>
     );
 }
